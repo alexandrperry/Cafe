@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start server.js",
-    "delete": "pm2 delete all",
-    "stop": "pm2 stop all",
+    "start": "npm run server.js",
     "devserver": "nodemon server.js",
     "client": "npm run dev --prefix client",
     "build": "webpack --optimize-minimize  --mode production",
